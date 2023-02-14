@@ -1,0 +1,8 @@
+{
+  "/api": {
+    "target": "https://customer-profiles.default.svc.cluster.local:8080/",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
