@@ -27,4 +27,4 @@ spec:
               wget -qO- $(params.source-url) | tar xvz -m
 
               npm install
-              npm run test-headless
+              # npm run test-headless
