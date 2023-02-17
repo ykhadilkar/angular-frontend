@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://customer-profiles.default.svc.cluster.local/",
+    "target": "https://customer-profile.default.svc.cluster.local/",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "debug"
