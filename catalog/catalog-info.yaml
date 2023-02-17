@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Service
 metadata:
   name: angular-frontend
   description: Angular Single Page Application with client side rendered web UI. Application provides Service to interact with backend API's.
