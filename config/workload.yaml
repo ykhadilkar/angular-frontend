@@ -24,6 +24,6 @@ spec:
         value: "dist"
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/ykhadilkar/angular-frontend.git
       ref:
         branch: main
