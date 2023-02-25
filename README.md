@@ -116,4 +116,3 @@ located in *nginx.conf* (see lines 161-163).
 Having the application locally running and deployed to a cluster you could add additional Components, Templates and Services to interact
 with your API.
 
-
