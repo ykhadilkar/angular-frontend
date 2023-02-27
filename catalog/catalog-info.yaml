@@ -14,3 +14,5 @@ spec:
   type: website
   lifecycle: experimental
   owner: default-team
+  dependsOn: [Component:customer-profile]
+  system: customer
