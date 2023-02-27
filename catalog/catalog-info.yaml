@@ -11,7 +11,7 @@ metadata:
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=angular-frontend"
 spec:
-  type: serivce
+  type: service
   lifecycle: experimental
   owner: default-team
   dependsOn: [Component:customer-profile]
