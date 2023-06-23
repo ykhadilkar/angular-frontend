@@ -26,7 +26,7 @@ interface CustomerProfileDTO {
 @Injectable()
 export class CustomerProfileService {
 
-  private baseUrl = '/api/customer-profiles/';
+  private baseUrl = '/api/customer-profiles';
 
   constructor(private http: HttpClient) {
   }
