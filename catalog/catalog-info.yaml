@@ -16,3 +16,5 @@ spec:
   owner: default-team
   dependsOn: [Component:customer-profile]
   system: customer
+  consumesApis:
+    - dev/customer-profile
