@@ -26,4 +26,4 @@ spec:
     git:
       url: https://github.com/ykhadilkar/angular-frontend.git
       ref:
-        branch: main
+        branch: h2o
