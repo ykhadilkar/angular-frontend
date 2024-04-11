@@ -11,11 +11,6 @@ spec:
     - name: annotations
       value:
         autoscaling.knative.dev/minScale: "1"
-    # - name: clusterBuilder
-    #   value: full
-    - name: testing_pipeline_matching_labels
-      value:
-        apps.tanzu.vmware.com/pipeline: test-angular
   build:
     env:
       - name: BP_NODE_RUN_SCRIPTS
