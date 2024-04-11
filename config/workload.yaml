@@ -11,15 +11,15 @@ spec:
     - name: annotations
       value:
         autoscaling.knative.dev/minScale: "1"
+    - name: testing_pipeline_matching_labels
+      value:
+        apps.tanzu.vmware.com/pipeline: test-angular
   build:
     env:
       - name: BP_NODE_RUN_SCRIPTS
         value: "build"
       - name: BP_WEB_SERVER_ROOT
         value: "dist"
-      - name: testing_pipeline_matching_labels
-        value:
-          apps.tanzu.vmware.com/pipeline: test-angular
   source:
     git:
       url: https://github.com/ykhadilkar/angular-frontend.git
