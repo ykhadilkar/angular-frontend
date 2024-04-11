@@ -26,5 +26,5 @@ spec:
               cd `mktemp -d`
               wget -qO- $(params.source-url) | tar xvz -m
 
-              npm install
+            # npm install
             # npm run test-headless
