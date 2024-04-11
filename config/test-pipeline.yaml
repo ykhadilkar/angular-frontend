@@ -3,7 +3,7 @@ kind: Pipeline
 metadata:
   name: angular-test-pipeline
   labels:
-    apps.tanzu.vmware.com/pipeline: test-angular
+    apps.tanzu.vmware.com/pipeline: test
 spec:
   params:
     - name: source-url
